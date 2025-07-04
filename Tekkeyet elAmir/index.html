@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekeyet elamir</title>
+    <link rel="shortcut icon" href="image.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Tekeyet <span>Elamir</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reservation">Reservation</a></li>
+                    <li><a href="#visit">Visit Siwa</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Authentic Flavors of Siwa</h1>
+            <p>Indulge in our world-class menu ranging from international and oriental dishes, deserts and a large variety of drinks
+            including vegetarian & vegan options.</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn">View Menu</a>
+                <a href="#reservation" class="btn btn-outline">Book a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Our Story</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Nestled in the heart of Siwa Oasis, Tekeyet Elamir brings together generations of traditional
+                        recipes with a modern touch. Our story began in 2021 when founder Amir returned to his
+                        ancestral home, determined to share Siwa's unique culinary heritage with the world.</p>
+                    <p>We source our ingredients from local farmers and producers, ensuring each dish tells a story of
+                        the land and its people. From our organic dates to our hand-ground spices, every element
+                        reflects Siwa's rich culture and breathtaking landscapes.</p>
+                    <p>More than just a restaurant, we're a gathering place where travelers and locals alike can connect
+                        over extraordinary food in an atmosphere that celebrates Siwa's timeless beauty.</p>
+                    <a href="#visit" class="btn">Explore Siwa</a>
+                </div>
+                <div class="about-img">
+                    <img src="Images\about.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-categories">
+                <button class="menu-category-btn active" data-category="all">All</button>
+                <button class="menu-category-btn" data-category="breakfast">Breakfast</button>
+                <button class="menu-category-btn" data-category="main">Main Dishes</button>
+                <button class="menu-category-btn" data-category="salads">Salads</button>
+                <button class="menu-category-btn" data-category="drinks">Drinks</button>
+                <button class="menu-category-btn" data-category="desserts">Desserts</button>
+            </div>
+            <div class="menu-items">
+                <!-- Breakfast Items -->
+                <div class="menu-item" data-category="breakfast">
+                    <div class="menu-item-img">
+                        <img src="Images/menu1.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Banana Chocolate Roll</h3>
+                            <span class="menu-item-price">35 EGP</span>
+                        </div>
+                        <p class="menu-item-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde illo reiciendis dicta ullam facilis illum vero dolorum ipsum possimus.
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag vegetarian">Vegetarian</span>
+                            <span class="menu-tag vegan">Vegan</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="breakfast">
+                    <div class="menu-item-img">
+                        <img src="Images/menu2.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Cappuccino Coffee</h3>
+                            <span class="menu-item-price">45 EGP</span>
+                        </div>
+                        <p class="menu-item-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde illo reiciendis dicta ullam facilis illum vero dolorum ipsum possimus.
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag vegetarian">Vegetarian</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Dishes -->
+                <div class="menu-item" data-category="main">
+                    <div class="menu-item-img">
+                        <img src="Images/menu3.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Lemonade With Mint</h3>
+                            <span class="menu-item-price">120 EGP</span>
+                        </div>
+                        <p class="menu-item-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde illo reiciendis dicta ullam facilis illum
+                            vero dolorum ipsum possimus.
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag gluten-free">Gluten Free</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="main">
+                    <div class="menu-item-img">
+                        <img src="Images/menu4.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Apple and Cinammon Roll</h3>
+                            <span class="menu-item-price">95 EGP</span>
+                        </div>
+                        <p class="menu-item-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde illo reiciendis dicta ullam facilis illum
+                            vero dolorum ipsum possimus.
+                        </p>                    
+                    </div>
+                </div>
+
+                <!-- Salads -->
+                <div class="menu-item" data-category="salads">
+                    <div class="menu-item-img">
+                        <img src="Images/menu5.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Chicken & Rice</h3>
+                            <span class="menu-item-price">55 EGP</span>
+                        </div>
+                        <p class="menu-item-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde illo reiciendis dicta ullam facilis illum
+                            vero dolorum ipsum possimus.
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag vegetarian">Vegetarian</span>
+                            <span class="menu-tag vegan">Vegan</span>
+                            <span class="menu-tag gluten-free">Gluten Free</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drinks -->
+                <div class="menu-item" data-category="drinks">
+                    <div class="menu-item-img">
+                        <img src="Images/menu6.jpg">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Basmati & Chicken</h3>
+                            <span class="menu-item-price">25 EGP</span>
+                        </div>
+                        <p class="menu-item-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde illo reiciendis dicta ullam facilis illum
+                            vero dolorum ipsum possimus.
+                        </p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag vegetarian">Vegetarian</span>
+                            <span class="menu-tag vegan">Vegan</span>
+                            <span class="menu-tag gluten-free">Gluten Free</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 
+                <div class="menu-item" data-category="">
+                    <div class="menu-item-img">
+                        <img src="">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Item</h3>
+                            <span class="menu-item-price">100 EGP</span>
+                        </div>
+                        <p class="menu-item-desc">Description</p>
+                        <div class="menu-item-tags">
+                            <span class="menu-tag vegetarian">Vegetarian</span>
+                        </div>
+                    </div>
+                </div> 
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="Images/gallery1.jpg">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/gallery2.jpg">
+                        alt="Food Presentation">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/gallery3.jpg">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/gallery4.jpg">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/gallery5.jpg">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/gallery6.jpg">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/gallery7.jpg">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/gallery8.jpg">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+
+    <section class="reservation" id="reservation">
+        <div class="container">
+            <h2>Make a Reservation</h2>
+            <form class="reservation-form" id="reservationForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" class="form-control" required placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required placeholder="Enter your email">
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-control" required placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <select id="guests" class="form-control" required>
+                            <option value="" disabled selected>Select guests</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5">5 People</option>
+                            <option value="6">6 People</option>
+                            <option value="7">7+ People</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" class="form-control" required min="">
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <select id="time" class="form-control" required disabled>
+                            <option value="" disabled selected>Select time</option>
+                            <!-- Will be populated by JS -->
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label for="requests">Special Requests</label>
+                    <textarea id="requests" class="form-control" rows="3" placeholder="Enter any special requests"></textarea>
+                </div>
+    
+                <div class="availability-status" id="availabilityStatus"></div>
+    
+                <button type="submit" class="form-submit" id="submitBtn" disabled>Book Now</button>
+            </form>
+    
+            <!-- Calendar Modal -->
+            <div class="calendar-modal" id="calendarModal">
+                <div class="calendar-container">
+                    <div class="calendar-header">
+                        <h3>Available Tables</h3>
+                        <span class="close-calendar" id="closeCalendar">&times;</span>
+                    </div>
+                    <div class="calendar-nav">
+                        <button id="prevMonth"><i class="fas fa-chevron-left"></i></button>
+                        <h4 id="currentMonth">Month Year</h4>
+                        <button id="nextMonth"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="calendar-grid" id="calendarGrid">
+                        <!-- Calendar will be generated here -->
+                    </div>
+                    <div class="time-slots-container" id="timeSlotsContainer">
+                        <!-- Time slots will appear here when a date is selected -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+    <!-- Visit Siwa Section -->
+    <section class="visit-siwa" id="visit">
+        <div class="container">
+            <h2>Explore Siwa</h2>
+            <p>While you're visiting us, don't miss these incredible Siwa attractions:</p>
+            <div class="attractions">
+                <div class="attraction">
+                    <div class="attraction-img">
+                        <img src="Images/visit1.jpg">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Shali Fortress</h3>
+                        <p>The ancient mud-brick fortress at the heart of Siwa, dating back to the 13th century. Climb
+                            to the top for panoramic views of the oasis.</p>
+                    </div>
+                </div>
+                <div class="attraction">
+                    <div class="attraction-img">
+                        <img src="Images/visit2.jpg">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Cleopatra's Spring</h3>
+                        <p>A natural spring where Cleopatra is said to have bathed. Enjoy a refreshing swim in the
+                            crystal-clear waters.</p>
+                    </div>
+                </div>
+                <div class="attraction">
+                    <div class="attraction-img">
+                        <img src="Images/visit3.jpg">
+                    </div>
+                    <div class="attraction-content">
+                        <h3>Great Sand Sea</h3>
+                        <p>Experience the breathtaking dunes of the Sahara with a sunset safari or overnight camping
+                            trip.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Tekeyet Elamir</h3>
+                    <p>Indulge in our world-class menu ranging from international and oriental dishes, deserts and a large variety of drinks
+                    including vegetarian & vegan options.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/tekeyetelamir"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/tekeyet_elamir/?hl=en"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> El Taba el Kebera St, Siwa, Marsa Matrouh</p>
+                    <p><i class="fas fa-phone"></i> +20 10 01311739</p>
+                    <p><i class="fas fa-envelope"></i> tekeyetelamir@gmail.com</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Sunday: &nbsp;9:00 AM - 12:00 AM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2021 Tekeyet Elamir. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="lightbox" id="lightbox">
+        <span class="close-btn" id="closeLightbox">&times;</span>
+        <div class="lightbox-content">
+            <span class="nav-btn prev-btn" id="prevBtn">&#10094;</span>
+            <img class="lightbox-img" id="lightboxImg">
+            <span class="nav-btn next-btn" id="nextBtn">&#10095;</span>
+        </div>
+        <div class="caption" id="caption"></div>
+    </div>
+    <script src="app.js"></script>
+    <script src="lightbox.js"></script>
+    <script src="reservations.js"></script>
+</body>
+
+</html>
